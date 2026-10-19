@@ -1,11 +1,6 @@
-import { createFileRoute } from "@tanstack/react-router";
 import { motion, useScroll, useTransform, useMotionValue, useSpring } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 import { Instagram, Linkedin, Dribbble, Twitter, Youtube, Github } from "lucide-react";
-
-export const Route = createFileRoute("/")({
-  component: Index,
-});
 
 const services = [
   {
@@ -846,7 +841,7 @@ function Footer() {
   );
 }
 
-function Index() {
+export default function App() {
   return (
     <div className="min-h-screen bg-cream text-ink">
       <Cursor />
