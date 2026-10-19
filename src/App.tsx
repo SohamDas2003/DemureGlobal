@@ -784,6 +784,15 @@ function Footer() {
             <p className="max-w-sm text-sm text-ink/60">
               Brooklyn · London · Lagos. Building things that make numbers go up.
             </p>
+            <div className="mt-4 space-y-1 font-mono text-xs text-ink/70">
+              <p className="font-semibold text-ink">Demure Global LLC</p>
+              <p>1099 E CHAMPLAIN DR STE A 1131 FRESNO, CA 93720</p>
+              <p>
+                <a href="mailto:info@demureglobal.net" className="transition hover:text-magenta">
+                  info@demureglobal.net
+                </a>
+              </p>
+            </div>
           </div>
           <div className="grid grid-cols-2 gap-8 font-mono text-sm md:grid-cols-3">
             <div>
@@ -832,8 +841,8 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="mt-12 flex items-center justify-between border-t border-ink/10 pt-6 font-mono text-xs text-ink/50">
-          <span>© {new Date().getFullYear()} Demure Global</span>
+        <div className="mt-12 flex flex-col gap-2 border-t border-ink/10 pt-6 font-mono text-xs text-ink/50 sm:flex-row sm:items-center sm:justify-between">
+          <span>© {new Date().getFullYear()} Demure Global LLC</span>
           <span>Made loudly ✺</span>
         </div>
       </div>
